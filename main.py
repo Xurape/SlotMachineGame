@@ -26,7 +26,7 @@ def greetingMessage():
 	print(Fore.GREEN + "\n		  Welcome to:\n")
 	print("┌──────────────────────────────┐\n" +
 	      "│  Xurape's first python game  │\n" +
-	      "└————───—──———─————————————────┘\n" + Fore.YELLOW)
+	      "└──────────────────────────────┘\n" + Fore.YELLOW)
 
 
 # Execute it
@@ -103,7 +103,7 @@ while True:
 	print(
 	 f"  │ {bet_symbols[randint(1, len(bet_symbols) - 1)]} │ {bet_symbols[randint(1, len(bet_symbols) - 1)]} │ {bet_symbols[randint(1, len(bet_symbols) - 1)]} │"
 	)
-	print("  └————─————─————┘")
+	print("  └──────────────┘")
 
 	# Check for point winning
 	for x in range(1, len(bet_symbols)):
